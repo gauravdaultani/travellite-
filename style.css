@@ -14,8 +14,34 @@ header{
     justify-content: center;
 
 }
+ul{
+    list-style: none;
+    
+
+}
+.nav-link li{
+    display: flex;
+    flex-direction: row;
+
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+.navbar{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 37px;
+    color: whitesmoke;
+
+}
 a {
    text-decoration: none;
+    color: whitesmoke;
 }
 .header-content{
     margin-bottom: 150px;
@@ -28,6 +54,23 @@ a {
 .line{
     width: 150px;
     height: 4px;
-    color:#fc036b;
+    background:#fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+
+}
+.active{
+    color: #fc036b;
 }
 
