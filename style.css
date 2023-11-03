@@ -16,7 +16,11 @@ header{
 }
 ul{
     list-style: none;
-    
+}
+.active a {
+    color: #fc036b;
+    text-decoration: underline;
+    font-weight: bold;
 
 }
 .nav-link li{
@@ -70,7 +74,44 @@ a {
     color: whitesmoke;
 
 }
-.active{
-    color: #fc036b;
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
 }
+/* mobile device */
+@media only screen and (max-width:850px) {
+    .navbar
+    {
+        padding: 0;
+        /* flex-direction: column;
+        align-items: center; */
+    }
+    .logo
+    {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-link{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;   
+        background-color: #484872;
+        margin-top: -900px;
+    }
+    .mobile-menu{
+        display: block;
+        margin-top: 0 px;
+    }
+    .nav-link li{
+        margin: 30px auto;
+
+    }
+    
+}
+
 
