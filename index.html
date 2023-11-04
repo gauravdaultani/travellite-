@@ -8,14 +8,13 @@
 </head>
 <body>
     <nav class="navbar">
-        <h1 class="logo">ADVENTURE</h1>
+        <h1 class="logo">TRAVELLITE</h1>
         <ul class="nav-link">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#">Tours</a></li>
             <li><a href="#">Explore</a></li>
             <li><a href="#">About</a></li>
             <li class="ctn"><a href="#">Contact</a></li>
-
         </ul>
         <img src="/img/menu-btn.png" alt="menu btn" class="menu-btn">
     </nav>
@@ -27,5 +26,43 @@
         <a href="#" class="ctn">Learn more </a>
         </div>  
     </header>
+    <section class="events"> 
+        <div class="title">
+            <h1>Upcoming Events </h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="even" src="/img/img1.png" alt="#">
+                <h4 class="side">Everest Camp Trek</h4>
+                <p class="side">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quidem. Nostrum necessitatibus fugit illum quam!</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <img class="even" src="/img/img2.png" alt="#">
+                    <h4 class="side">Walking Holidays</h4>
+                    <p class="side">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quidem. Nostrum necessitatibus fugit illum quam!</p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione quam voluptatibus harum impedit nostrum? Placeat aut odio facere, quae quisquam libero omnis architecto doloremque eligendi?</p>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navLink = document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click', () => {
+            navLink.classList.toggle('mobile-menu')
+        })
+    </script>
 </body>
 </html>
