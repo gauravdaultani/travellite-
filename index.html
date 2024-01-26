@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>travellite</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
 </head>
 <body>
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
+    </div>
     <nav class="navbar">
         <h1 class="logo">TRAVELLITE</h1>
         <ul class="nav-link">
@@ -87,5 +91,7 @@
             navLink.classList.toggle('mobile-menu')
         })
     </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
 </body>
 </html>

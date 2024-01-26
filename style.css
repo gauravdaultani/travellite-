@@ -202,17 +202,17 @@ p{
     margin: 20px auto;
 }
 .ctn:hover{
-     /* background:whitesmoke; */ */
-    color:#fc036b;
+     /* background:whitesmoke; */ 
+    /* color:#fc036b; */
     scale: 1.1;
     transition: all 0.5s ease;
     box-shadow: 2px 2px 5px #00000056;
 }
-li:hover{
-    color: #fc036b;
+ li:hover{
+     color: #fc036b; 
     transition: all 0.5s ease;
     cursor: pointer;
-}
+} 
 
 /* mobile device */
 @media only screen and (max-width:850px) {
